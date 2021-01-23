@@ -1,0 +1,80 @@
+---
+title: "ECO395M: Assignment 1"
+author: "Scott Cohn"
+date: "`r Sys.Date()`"
+header-includes:
+    - \usepackage{setspace}\doublespacing
+output: 
+  pdf_document:
+    fig_height: 3
+    fig_width: 5
+  html_document:
+    fig_height: 3
+    fig_width: 5
+  word_document:
+    fig_height: 3
+    fig_width: 5
+urlcolor: blue
+mainfont: cochineal
+sansfont: Fira Sans
+monofont: Fira Code 
+---
+
+```{r, setup, include=FALSE}
+require(mosaic)   # Load additional packages here 
+knitr::opts_chunk$set(
+  tidy=FALSE,     # display code as typed
+  size="small")   # slightly smaller font for code
+
+library(tufte)
+```
+
+# Part 1
+
+## Past
+
+I was born in July of 1997 in West Hartford Connecticut, the first of two boys. I lived there until I was four before my family moved to the suburbs of Boston. My mom liked to say that I've been trying to "move out" on my own since then. When I was young, I adored adventure books (and movies) --- classics like Gulliver's Travels and kids spy novels like Alex Rider. My favorite video game was _James Bond 007: Nightfire_ on my GameCube (possibly one of the most hilarious consoles of all time). I hated the confines of my quiet suburb and longed to be an international super spy. The only step I took towards that goal was keeping a ready supply of poptarts in my desk drawer hidden from my mother. 
+
+As I grew up, I developed quite strong feelings about institutions and social justice. Now, I might use language found in the Rawlsian canon, although that was certainly not the case in middle and high school. I can't identify where this grew from exactly. I do recall being generally uncomfortable being with my grandparents at their Westchester Country Club and seeing the stark divide between members and the club staff, many of whom were immigrants. In addition, I fell down some strange and wonky rabbit holes on YouTube in the mid-2000s that heavily influenced the books and media I chose to consume in High School --- which largely pushed me in the direction of economics as a way to understand systems of inequality and class exploitation. Fortunately, I narrowly missed the Alt-Right recommendations that suck up a lot of people with my background. This process is documented pretty well in the NYT Rabbit Hole podcast.
+
+At seventeen, I deferred college to become a City Year AmeriCorps volunteer in the South Bronx where I taught math and English to middle school students. I witnessed inequality and community violence that forced reflection about my relatively privileged upbringing. In the classroom where I could exercise control, I often wondered how well-intentioned community and education policy and its practice so drastically failed some of the highest need students. Moreover, I saw how the institutions that exist (e.g. artifacts of red lining) have subjugated these communities to a life of poverty and limited class mobility. In effect, this is a radicalizing period in my life. 
+
+## Present
+
+When I think about economics, political struggle, and cultural movements now, I defer to "how would this **practically** affect the students I worked with?" I also see them in the music I listen to. In the words of Mos Def in _Mathematics_
+
+> _When the average minimum wage is 5.15_
+>
+> _You best believe you've got to find a new grind to get_
+>
+> _cream,_
+
+where _cream_ refers to the Wu-Tang's "C.R.E.A.M." ("Cash Rules Everything Around Me"). A few lines later, Mos Def drops this line:
+
+> _Bubbling crack, jewel theft and robbery to combat poverty_
+
+Our institutions, through class subjugation, drive people like the students I taught to selling hard drugs and other risky behavior to get by because they don't have institutional support to get by. I think about this a lot, and try communicate these ideas within my community.
+
+These experiences, and others that similar, affected what I pursued in college. Throughout my junior and senior year until present, I have been an RA for Dr. Samuel Bowles and Dr. Simon Halliday’s forthcoming intermediate microeconomics textbook _Microeconomics: Competition, Coordination, and Conflict published_ by the Oxford University Press. This project has challenged my understanding of microeconomic theory and allowed me to use and further develop my skills in R to articulate and visualize economic models. We spend a lot of time talking about inequality and power within the models presented. I think this is a powerful change in early teaching models. With Dr. Chris Makler at Stanford, I helped program interactive versions of the graphs of these models. As a continuation of my engagement with pedagogy, I received a fellowship to attend the CORE-Econ workshop at Barnard College to share my skills, collaborate with graduate students, and learn from the CORE contributors. I think the methods presented there and conversations within the examples are powerful for introductory students.
+
+I'm excited for the tools I'm going to gain in this course. The material you will present will help me better understand the frontiers of the applied literature. And, hopefully it will be help me critically engage with the research on policy.
+
+## Future
+
+As I look to the future, I'm largely unsure. For so long I was set on PhD applications but I opted out during this year. I'd like to get out of academia for a bit, ideally do analytics or something data related and spend time engaging with local politics and community organization. Also location matters to me a lot, and I worry about ending up "in the middle of nowhere", etc. In the medium term, I may go back for a PhD, although it would likely be in something econ-tangent like public policy. In 10 years? Oh my... 
+
+# Part 2
+
+## Question 1
+
+Data affects real people.
+
+## Question 2
+
+Data science is a field that seeks to draw insights from structured and unstructured data. Causal inference significantly overlaps greatly and seeks to identify causal mechanisms using statistical methods.
+
+A data science project might ask something like "given the characteristics of this population and information on diabetes, build a classifier to determine which out-of-sample members of the population are likely to have diabetes." A causal inference question might be "After the implementation of Policy A, we saw a change in XYZ. Identify whether the policy _caused_ the change in the observed outcome XYZ."
+
+## Question 3
+
+Option 3: "Data science is an inter-disciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from many structural and unstructured data."
