@@ -1,0 +1,56 @@
+---
+title: "Assignment 02"
+author: "Scott Cohn"
+date: "Last compiled on `r format(Sys.time(), '%d %B, %Y')`"
+output: 
+  pdf_document:
+    fig_height: 3
+    fig_width: 5
+  html_document:
+    fig_height: 3
+    fig_width: 5
+  word_document:
+    fig_height: 3
+    fig_width: 5
+---
+
+```{r, setup, include=FALSE}
+require(mosaic)   # Load additional packages here 
+knitr::opts_chunk$set(
+  tidy=FALSE,     # display code as typed
+  size="small")   # slightly smaller font for code
+```
+
+# Gentzkow and Shapiro
+
+
+# Git 
+
+## Q5
+
+Git is a version control system. It is a tool that manages source code history. Git**Hub** is a web-based hosting service for Git repositories. There are other hosting services for Git (e.g., BitBucket). Git is the tool whereas GitHub is the service that hosts projects utilizing the tool. GitHub is not necessary to use Git.
+
+## Q6
+
+Since Git is a version control tool, any errors can be back-tracked or undone. If you don't use Git, you can accidentally change or delete a file and it may not be recoverable; Git fixes this problem. You can return to any previous "commit" stage in case of an error.
+
+## Q7 
+
+I do not have problems using Git as they relate to this class. Although, I would like to be able to use it solely from the command line. I'm not quite there yet.
+
+## Q8 
+
+1. Stage/Add
+2. Commit
+3. Pull
+4. Push
+
+These form the basic workflow for working with Git. I can make local changes (like typing the answer to this question). If I have have a notable contribution, or I want to step away but keep these changes, I can **stage** these changes to the repo history. If I am sure that I want to keep these changes, I can **commit** them to the repo. Suppose I a friend added a file I wanted to include, then I might **pull**. I can also **push** my committed local changes to the upstream remote repo. 
+
+## Q9 
+
+Here is the [link](https://github.com/scottcohn97/causal_inf_pset) to the repo this file is in and here is a [link](https://github.com/scottcohn97/causal-inference-class) to my clone of this class.
+
+## Q10
+
+It's cloned.
